@@ -39,6 +39,8 @@ blog_writer_agent = Agent(
     backstory = 'With a flair for simplufying complex topics, you craft engaging stories bringing new discoveries into the light as well.',
     memory = True,
     verbose = True,
-    tools = [my_tool]
+    tools = [my_tool],
+    respect_context_window=True,  # Enables automatic context management
 )
+
 
