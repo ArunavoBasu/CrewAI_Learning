@@ -1,0 +1,7 @@
+crewai
+python-dotenv
+crewai_tools
+groq
+exa_py
+crewai[tools]
+litellm
